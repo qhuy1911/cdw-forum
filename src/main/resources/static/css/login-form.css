@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-form {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form__title {
+    margin-bottom: 16px;
+}
+
+.login-form__error {
+    color: red;
+    margin-bottom: 8px;
+}
+
+.login-form__input {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.login-form__submit input {
+    padding: 4px 16px;
+}
